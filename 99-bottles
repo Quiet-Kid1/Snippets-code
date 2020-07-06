@@ -1,0 +1,25 @@
+var bottle = 99;
+function beer(){
+   while(bottle >= 0){
+  
+      if(bottle == 1){
+      console.log(bottle + " Bottle of beer on the wall," + bottle + "bottles of beer, " + "Take one down and pass it around, " + bottle + " no more bottles of beer on the wall..");
+      
+      }
+      
+    if(bottle > 1){
+
+      console.log(bottle + " Bottle of beer on the wall," + bottle + "bottles of beer, " + "Take one down and pass it around, " + (bottle -  1) + " bottles of beer on the wall.");
+      }
+      
+    else if(bottle == 0){
+      console.log("No More Bottles of beer on the wall, no more bottles of beer, Go to store and buy some more, 99 bottles of beer on wall");
+      
+      }
+
+    bottle--;
+   }
+    
+}
+
+beer();
