@@ -12,4 +12,6 @@ Snippets code about calculate something simple and other stuff
 - FizzBuzz : a function that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For
 numbers which are multiples of both three and five print “FizzBuzz”.
 
-- 99-bottles : challenge to print 99 bottles of bear lyric using loop
+- 99-bottles : solution for a challenge to print 99 bottles of bear lyric using loop
+
+-Fibonacci : a function that using fibonacci sequence where every number is the sum of two previous ones (e.g. : 0, 1, 1, 2, 3, 5, ....) and push it into array
